@@ -1,0 +1,52 @@
+Bubble Sort:
+
+Advantages:
+
+    Simple Implementation: Bubble sort is characterized by its straightforward understanding and implementation.
+
+    In-Place Sorting: This algorithm operates in-place, necessitating only a constant amount of additional memory.
+
+Disadvantages:
+
+    Inefficiency: The algorithm exhibits poor time complexity, rendering it inefficient for large datasets compared to advanced algorithms like quicksort and mergesort.
+
+    O(n^2) Time Complexity: Bubble sort demonstrates a time complexity of O(n^2) in the worst-case scenario, contributing to inefficiency with large datasets.
+
+Scenarios for Use:
+Bubble sort is apt for small datasets or situations emphasizing simplicity over efficiency. It excels in nearly sorted arrays due to its adaptive nature.
+
+Quicksort:
+
+Advantages:
+
+    Efficiency: Boasting excellent average-case time complexity of O(n log n), quicksort performs admirably on large datasets.
+
+    In-Place Sorting: This algorithm can be implemented for in-place sorting, demanding only a logarithmic amount of additional memory.
+
+    Adaptive: Quicksort adapts well to nearly sorted arrays, demonstrating efficient performance in practice.
+
+Disadvantages:
+
+    Not Stable: Quicksort lacks stability, indicating a potential change in the relative order of equal elements.
+
+    Worst-Case Time Complexity: While average-case time complexity is favorable, the worst-case scenario may witness O(n^2) time complexity, albeit rare with judicious pivot selection strategies.
+
+Scenarios for Use:
+Quicksort is optimal for large datasets or scenarios requiring high performance. It is commonly employed due to its efficiency across various use cases.
+
+Mergesort:
+
+Advantages:
+
+    Stable: Mergesort stands out as a stable sorting algorithm, preserving the relative order of equal elements.
+
+    Predictable Performance: Demonstrating a consistent time complexity of O(n log n) regardless of input data, mergesort is suitable for scenarios demanding predictable performance.
+
+    Parallelizable: The algorithm can be easily parallelized, facilitating efficient sorting on multi-core or distributed systems.
+
+Disadvantages:
+
+    Additional Space: Mergesort demands additional memory proportional to the input array's size, making it less suitable for memory-constrained environments.
+
+Scenarios for Use:
+Mergesort finds its application in scenarios requiring stable sorting and consistent performance. It is often employed in external sorting applications for large files that exceed memory capacity.
