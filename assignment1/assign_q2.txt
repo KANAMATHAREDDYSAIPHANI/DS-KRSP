@@ -1,0 +1,50 @@
+Tracing the Bubble Sort Algorithm Step by Step for the Unsorted Array [7, 4, 2, 9, 1]:
+
+2. Intermediate: Bubble Sort Tracing
+
+Pass 1:
+
+    Commence with the array [7, 4, 2, 9, 1].
+    Perform pairwise comparisons:
+
+    - Compare 7 and 4: As 7 > 4, swap them: [4, 7, 2, 9, 1].
+    - Compare 7 and 2: Since 7 > 2, swap them: [4, 2, 7, 9, 1].
+    - Compare 7 and 9: No swap is required.
+    - Compare 9 and 1: Since 9 > 1, swap them: [4, 2, 7, 1, 9].
+
+    After Pass 1: [4, 2, 7, 1, 9]
+
+Pass 2:
+
+    Repeat the process for the remaining unsorted elements:
+    
+    - Compare 4 and 2: Since 4 > 2, swap them: [2, 4, 7, 1, 9].
+    - Compare 4 and 7: No swap is required.
+    - Compare 7 and 1: Since 7 > 1, swap them: [2, 4, 1, 7, 9].
+
+    After Pass 2: [2, 4, 1, 7, 9]
+
+Pass 3:
+
+    Repeat the process:
+    
+    - Compare 2 and 4: No swap is required.
+    - Compare 4 and 1: Since 4 > 1, swap them: [2, 1, 4, 7, 9].
+
+    After Pass 3: [2, 1, 4, 7, 9]
+
+Pass 4:
+
+    Repeat the process:
+    
+    - Compare 2 and 1: Since 2 > 1, swap them: [1, 2, 4, 7, 9].
+
+    After Pass 4: [1, 2, 4, 7, 9]
+
+Pass 5:
+
+    No swaps are needed as the array is already sorted.
+    
+    After Pass 5: [1, 2, 4, 7, 9]
+
+The sorted array is [1, 2, 4, 7, 9].
