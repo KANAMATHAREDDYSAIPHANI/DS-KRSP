@@ -1,0 +1,23 @@
+    Image Viewer using Linked List:
+
+    Justification:
+        A linked list is suitable for an image viewer because it provides efficient insertion and deletion operations, which are common operations in managing and viewing images.
+        In an image viewer, users may want to add or remove images dynamically without the need to shift or resize existing images. Linked lists allow for constant-time insertion and deletion at any position, making it convenient for managing a dynamic list of images.
+        Additionally, linked lists provide sequential access to images, allowing users to navigate through images in a linear manner, similar to flipping through pages in a book.
+
+    Advantages:
+        Constant-time insertion and deletion: Linked lists allow for efficient addition and removal of images at any position without affecting other elements.
+        Dynamic memory allocation: Linked lists can dynamically allocate memory for each image, allowing for flexible storage of images of varying sizes.
+        Sequential access: Linked lists provide sequential access to images, enabling users to navigate through images in a linear order.
+
+    Syntax Analysis using Binary Tree:
+
+    Justification:
+        A binary tree is suitable for syntax analysis because it can represent the hierarchical structure of expressions, such as arithmetic expressions, where operators have precedence and operands are grouped accordingly.
+        In syntax analysis, expressions are typically represented as trees, where operators are internal nodes and operands are leaf nodes. Binary trees naturally represent this hierarchical structure, making it easier to analyze and manipulate expressions.
+        Recursive algorithms, such as parsing arithmetic expressions, can be implemented efficiently using binary trees due to their recursive nature.
+
+    Advantages:
+        Hierarchical representation: Binary trees naturally represent the hierarchical structure of expressions, making it easier to analyze and manipulate complex expressions.
+        Recursive algorithms: Binary trees facilitate the implementation of recursive algorithms for syntax analysis, such as parsing arithmetic expressions recursively.
+        Efficient traversal: Binary trees support efficient traversal algorithms, such as inorder traversal, which can be used to evaluate or display expressions in a meaningful order.
